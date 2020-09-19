@@ -20,3 +20,15 @@ I am extremely interested in the world of programming and want to work in this a
 * Github
 * VS code
 * WebStorm 
+## Education 
+Saint Petersburg Technological Institute \
+Specialty: personnel management 
+### Courses completed:
+* HTML Academy: HTML, CSS, JS
+* Code basics: HTML, CSS, JS 
+
+## English
+
+A2 \
+School + University
+

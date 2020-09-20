@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    width: 100%;
+    padding: 100px 0;
+    background: rgb(218, 192, 153);
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1024px;
+    height: 80%;
+    background-color: whitesmoke;
+}
+
+h3 {
+    margin-bottom: 0px;
+    color: rgb(88, 88, 116);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+p {
+    margin-top: 5px;
+}
+.header__content {
+   padding-right: 170px;
+    text-align: start;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    display: inline-flex;
+}
+
+.header__contacts {
+    display: flex;
+}
+
+.header__contacts article {
+    display: block;
+    
+}
+
+
+.header__avatar {
+    position:  relative;
+    top: 10px; left: 800px;
+    width: 150px;
+    height: 170px;
+}
+
+main {
+   text-align: center;
+}
+
+.main__content {
+    text-align: start;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+
+}
+
+
+.skills__content {
+    display: flex;
+}
+
+.skills__content ul {
+    padding-left: 100px;
+}
+
+.line-down {
+    text-decoration-line: underline;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+pre {
+    margin-right: 160px;
+}
+
+
+@media(max-width: 1300px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .header__avatar {
+    left: 700px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .header__avatar {
+    left: 500px;
+    }
+}
+
+@media(max-width: 920px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .header__content {
+        padding: 0px;
+    }
+
+    header {
+        display: block;
+    }
+
+    .header__avatar {
+        display: block;
+        position: inherit;
+        margin: auto; 
+    }
+
+    .content__hidden {
+        display: none;
+    }
+
+    .skills__content ul {
+
+        padding-left: 60px;
+    }
+}
+
+@media(max-width: 760px) {
+    .container {
+        max-width: 520px;
+    }
+}
+
+@media(max-width: 660px) {
+    .container {
+        max-width: 440px;
+    }
+}
+
+@media(max-width: 550px) {
+    .container {
+        max-width: 370px;
+    }
+
+    .skills__content ul {
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 470px) {
+    .container {
+        max-width: 370px;
+    }
+
+   .background {
+       padding: 0px;
+   }
+
+}
